@@ -51,8 +51,8 @@ function ProductDetails() {
     <Helmet>
         <title>{productDtail.title.split(" ").slice(0,2).join(" ")}</title>
     </Helmet>
-    <div className="container">
-        <div className="row align-items-center">
+    <div className="container p-5">
+        <div className="row mt-5 align-items-center">
             <div className="col-3">
                 <figure>
                     <img className='w-100' src={productDtail.imageCover} alt={productDtail.title} />

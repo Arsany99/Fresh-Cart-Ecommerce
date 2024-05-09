@@ -32,7 +32,7 @@ export default function CategoriesSlider() {
     <Slider {...settings}>
     {data.data.data.map((category , idx)=> <div key={idx} >
        <img style={{height:"200px"}} className=" w-100" src={category.image} alt={category.name} />
-       <h4 className="overflow-hidden m-3">{category.name}</h4>
+        <h4 className="fs-5 text-truncate p-3">{category.name}</h4> 
     </div> )}
     </Slider>
   );

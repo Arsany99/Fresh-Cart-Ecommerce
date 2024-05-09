@@ -41,9 +41,10 @@ function Navbar() {
           <Link className="nav-link" to="/allorders">All Order</Link>
         </li>
         <li className="nav-item position-relative">
-          <Link className="nav-link " to="/Cart">cart</Link>
-          <span class="position-absolute top-0 my-2 mx-2 start-100 translate-middle badge rounded-pill bg-danger">{numOfCartItems}</span>
-        </li>
+  <Link className="nav-link" to="/Cart">Cart</Link>
+  <span className="position-absolute top-0 start-100  mt-1 translate-middle badge rounded-pill bg-danger" style={{ fontSize: '0.8rem' }}>{numOfCartItems}</span>
+</li>
+
       </ul> : ""}
 
 

@@ -21,7 +21,7 @@ function SubCategory() {
 
     const CategoryDetail = data?.data.data;
     if (isLoading) {
-        return <div className="d-flex vh-100 bg-primary bg-opacity-50 justify-content-center align-items-center">
+        return <div className="d-flex vh-100 mt-5 p-5 bg-primary bg-opacity-50 justify-content-center align-items-center">
             <FallingLines
                 color="#4fa94d"
                 width="100"
