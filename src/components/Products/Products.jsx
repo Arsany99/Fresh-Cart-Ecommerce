@@ -83,7 +83,7 @@ function Products() {
                                             <h3 className='h6 text-main'>{product.category.name}</h3>
                                             <h2 className='h6 text-center ' >{product.title .split(" ").slice(0,2).join(" ") }</h2>
                                             <div className="d-flex justify-content-between">
-                                                {product.priceAfterDiscount ? <p> <span className='text-decoration-line-through text-danger '>{product.price}$</span> -{product.priceAfterDiscount}$</p>: <p>{product.price}$</p> }
+                                                {product.priceAfterDiscount ? <p> <span className='text-decoration-line-through text-danger '>{product.price}</span> -{product.priceAfterDiscount}$</p>: <p>{product.price}$</p> }
                                                 <p> <i style={{color:"yellowgreen"}} className=' fa-solid fa-star'></i> {product.ratingsAverage}</p>
                                             </div>
                                         </div>
