@@ -84,7 +84,7 @@ function Register() {
     const[errorMessage ,setErrorMessage ] = useState(undefined)
 
     return <>
-    <div className="w-75 m-auto p-5">
+    <div className="w-75 mt-5 mx-auto p-5 p-5">
         {isSucces? <div className='alert alert-success text-center '> congratlotuions you have been created account</div> : ""}
         {errorMessage? <div className='alert alert-danger text-center '> {errorMessage}</div> : ""}
         <h2>Register Now:</h2>
