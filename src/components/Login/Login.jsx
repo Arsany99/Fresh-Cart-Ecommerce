@@ -83,7 +83,7 @@ function Login() {
 
 
     return <>
-    <div className="w-75 m-auto p-5">
+    <div className="w-75 p-5 mt-5 m-auto p-5">
         {isSucces? <div className='alert alert-success text-center '> welcome</div> : ""}
         {errorMessage? <div className='alert alert-danger text-center '> {errorMessage}</div> : ""}
         <h2>Login Now:</h2>

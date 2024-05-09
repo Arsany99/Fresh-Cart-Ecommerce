@@ -37,8 +37,8 @@ function AllOrders() {
 
 
     return <>
-    <div className="container p-5">
-        <div className="row g-3">
+    <div className="container mt-5 p-5">
+        <div className="row g-5">
             { allOrder?.map ((order , idx)=> 
                 <div key={idx} className="col-md-6 overflow-hidden">
                     <div className="order shadow mb-3 mt-3 bg-body-secondary h-100">
