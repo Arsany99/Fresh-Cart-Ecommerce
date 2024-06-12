@@ -56,7 +56,7 @@ function AllOrders() {
                             </div>
                         </div>
                         <h5 className='fw-bold'>Payment Method :{order.paymentMethodType}</h5>
-                        <h5 className='fw-bold'>Order Price :{order.totalOrderPrice}</h5>
+                        <h5 className='fw-bold'>Order Price :{order.totalOrderPrice}$</h5>
                     </div>
             </div>)}
 

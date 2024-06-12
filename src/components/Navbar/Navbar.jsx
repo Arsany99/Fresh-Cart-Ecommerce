@@ -19,7 +19,7 @@ function Navbar() {
     
   <nav className="navbar navbar-expand-lg fixed-top bg-body-tertiary ">
   <div className="container-fluid">
-    <Link className="navbar-brand" to="/">
+    <Link className="navbar-brand" to="/products">
         <img src={logo} alt="Fresh Cart" />
 
     </Link>

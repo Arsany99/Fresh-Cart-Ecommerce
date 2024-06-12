@@ -52,7 +52,7 @@ function Cart() {
         <div className="d-flex mt-5 justify-content-between align-items-center">
             <div className="">
             <h2>Shop Cart :</h2>
-            <h5>Total Card Price : {totalCartPrice} LE</h5>
+            <h5>Total Card Price : {totalCartPrice} $</h5>
             <button onClick={()=>clearCart()} className='btn btn-outline-danger'>Clear</button>
             </div>
             <Link to='/payment'>
@@ -70,7 +70,7 @@ function Cart() {
                 <div className="col-9">
                     <article>
                         <h3>{product.product.title}</h3>
-                        <h5>Price : {product.price}</h5>
+                        <h5>Price : {product.price} $</h5>
                         <button onClick={()=> myDeleteProduct(product.product.id )} className='btn btn-outline-danger'> Remove </button>
                     </article>
                 </div>

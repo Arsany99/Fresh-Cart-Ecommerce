@@ -6,11 +6,11 @@ import Slider from "react-slick";
 
 export default function CategoriesSlider() {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 7,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
   };
   function getCategories() {
     return axios.get("https://ecommerce.routemisr.com/api/v1/categories")
@@ -31,8 +31,8 @@ export default function CategoriesSlider() {
   return (
     <Slider {...settings}>
     {data.data.data.map((category , idx)=> <div key={idx} >
-       <img style={{height:"200px"}} className=" w-100" src={category.image} alt={category.name} />
-        <h4 className="fs-5 text-truncate p-3">{category.name}</h4> 
+          <img style={{height:"200px"}} className=" w-100" src={category.image} alt={category.name} />
+          <h4 className="fs-5 text-truncate p-3">{category.name}</h4> 
     </div> )}
     </Slider>
   );

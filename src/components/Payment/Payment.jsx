@@ -79,15 +79,15 @@ function Payment() {
         
     }
     return <>
-    <div className="w-50 m-auto">
-        <label className='mt-2' htmlFor="City">City</label>
+    <div className="w-50 m-auto p-5">
+        <label className='mt-5' htmlFor="City">City</label>
         <input type="text"id='City' placeholder='City' className=' form-control mb-4' />
         <label htmlFor="Phone">Phone</label>
         <input type="text"id='Phone' placeholder='Phone' className=' form-control mb-4' />
         <label htmlFor="Details">Details</label>
         <textarea type="text"id='Details' placeholder='Details' className=' form-control mb-4'></textarea>
 
-        <button onClick={()=>confirmCashPayment()} className='btn btn-primary mb-4'>Confirm Cash Payment</button>
+        <button onClick={()=>confirmCashPayment()} className='btn btn-primary me-5 mb-4'>Confirm Cash Payment</button>
         <button onClick={()=>confirmOnlinePayment()} className='btn btn-primary mb-4'>Confirm Online Payment</button>
 
 
