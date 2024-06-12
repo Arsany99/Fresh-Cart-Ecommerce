@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import authContext from '../../Context/AuthContext.js'
 import imageProfile from '../../images/ava3.webp'
 import { cartContext } from '../../Context/CartContext.js'
-import welcomeImage from '../../images/w.webp'
 
 
 function Profile() {
@@ -13,7 +12,6 @@ function Profile() {
     const{totalCartPrice}= useContext(cartContext)
 
 
-    console.log('uuu'  , userData);
     return <>
     
 
